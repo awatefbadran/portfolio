@@ -43,7 +43,7 @@ const sideBar=document.getElementById("settings-sidebar")
 const close=document.getElementById("close-settings")
 close.addEventListener("click",function(){
     sideBar.classList.add("translate-x-full")
-
+ toggleBtn.classList.toggle("right")
 })
 toggleBtn.addEventListener("click",function(){
     sideBar.classList.toggle("translate-x-full")
